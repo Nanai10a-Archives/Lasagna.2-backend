@@ -1,7 +1,12 @@
 [package]
 name = "lasagna_backend"
-version = "0.1.0"
+version = "0.1.0-alpha"
 edition = "2018"
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
 
 [dependencies.tokio]
 version = "1"
