@@ -353,6 +353,7 @@ name = "lasagna_backend"
 version = "0.1.0"
 dependencies = [
  "tokio",
+ "url",
  "uuid",
  "warp",
 ]

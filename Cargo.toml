@@ -10,3 +10,4 @@ features = ["full"]
 [dependencies]
 warp = "0.3"
 uuid = "*"
+url = "*"
