@@ -11,3 +11,4 @@ features = ["full"]
 warp = "0.3"
 uuid = "*"
 url = "*"
+chrono = "*"
